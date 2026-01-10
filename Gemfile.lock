@@ -280,7 +280,7 @@ DEPENDENCIES
   capybara (>= 3.40.0)
   carrierwave (~> 3.3.0)
   coffee-rails (~> 5.0.0)
-  devise (4.9.4)
+  devise (>= 4.9.4)
   faker!
   jbuilder (~> 2.15.0)
   jquery-rails
@@ -293,7 +293,7 @@ DEPENDENCIES
   selenium-webdriver (>= 4.0)
   spring
   spring-watcher-listen (~> 2.1.0)
-  sqlite3 (>= 2.1)
+  sqlite3!
   tzinfo-data
   uglifier (>= 4.2.1)
   validate_url
