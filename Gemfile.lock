@@ -247,7 +247,7 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2018.5)
       tzinfo (>= 1.0.0)
-    uglifier (4.1.19)
+    uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     validate_url (1.0.2)
       activemodel (>= 3.0.0)
