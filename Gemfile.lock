@@ -284,7 +284,7 @@ DEPENDENCIES
   capybara (>= 3.40.0)
   carrierwave (~> 3.3.0)
   coffee-rails (~> 5.0.0)
-  devise (~> 5.0.0.rc)
+  devise (~> 5.0.0)
   faker!
   jbuilder (~> 2.15.0)
   jquery-rails
