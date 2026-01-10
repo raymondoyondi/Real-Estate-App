@@ -3,7 +3,7 @@ GIT
   revision: 1027509079176fcc4088dcc7638101cde617cf16
   branch: add-gemspec
   specs:
-    sqlite3 (1.3.13.20180326210955)
+    sqlite3 (~> 1.4)
 
 GIT
   remote: https://github.com/stympy/faker.git
@@ -301,7 +301,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 RUBY VERSION
-   ruby 2.5.1p57
+   ruby 3.1.2
 
 BUNDLED WITH
-   1.16.5
+   2.6.9
