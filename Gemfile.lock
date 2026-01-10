@@ -101,7 +101,7 @@ GEM
     crass (1.0.4)
     dartsass-rails (0.5.1)
       railties (>= 8.1.2)
-    devise (~> 5.0.0)
+    devise (~> 4.9.0)
       bcrypt (~> 3.1.20)
       orm_adapter (~> 0.1)
       railties (>= 8.1.2)
@@ -274,7 +274,7 @@ DEPENDENCIES
   capybara (>= 3.40.0)
   carrierwave (~> 3.3.0)
   coffee-rails (~> 5.0.0)
-  devise (~> 5.0.0)
+  devise (~> 4.9.0)
   faker!
   jbuilder (~> 2.15.0)
   jquery-rails
