@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.0'
+gem 'rails', '~> 6.1.7'
 
 
 
@@ -19,7 +19,7 @@ group :production do
 end
 
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,7 +43,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
 
 # Use devise
-gem 'devise'
+gem 'devise', '>= 4.8.0'
 
 # Use Bootstrap for UI
 gem 'bootstrap'
@@ -89,5 +89,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 # Gem for Omniauth
-gem 'omniauth' 
+gem 'omniauth', '~> 2.0'
 gem 'omniauth-google-oauth2'
+gem 'omniauth-rails_csrf_protection'
