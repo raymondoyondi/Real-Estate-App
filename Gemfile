@@ -1,17 +1,17 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.0'
+ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.1.0'
+gem 'rails', '~> 5.2.1'
 
 
 
 # Database for development and testing
 group :development, :test do
 # Use sqlite3 as the database for Active Record
-  gem 'sqlite3', '~> 1.4'
+  gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
 end
 # Database for production
 group :production do
@@ -19,7 +19,7 @@ group :production do
 end
 
 # Use Puma as the app server
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -43,7 +43,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
 
 # Use devise
-gem 'devise', '~>4.8'
+gem 'devise'
 
 # Use Bootstrap for UI
 gem 'bootstrap'
@@ -86,7 +86,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Gem to seed the DB
-gem 'faker', '~> 3.5'
+gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 # Gem for Omniauth
 gem 'omniauth' 
