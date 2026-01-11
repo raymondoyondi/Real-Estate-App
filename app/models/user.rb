@@ -8,7 +8,7 @@ class User < ApplicationRecord
          :omniauthable, :omniauth_providers => [:google]
 
   validates_presence_of :email, :first_name
-  enum :contact_method: [:email, :text, :call]
+  enum :contact_method, [:email, :text, :call]
 
   def self.from_omniauth(auth)
     user = User.where(:provider => auth.provider, :uid => auth.uid ).first
