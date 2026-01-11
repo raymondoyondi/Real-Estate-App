@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module RealEstateApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 5.2
+    config.load_defaults 8.0
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
@@ -17,6 +17,5 @@ module RealEstateApp
     # the framework and any gems in your application.
 
     # config/application.rb
-    config.assets.initialize_on_precompile = false
   end
 end
