@@ -190,6 +190,7 @@ GEM
     minitest (5.11.3)
     msgpack (1.2.4)
     multi_xml (0.6.0)
+    mutex_m (0.3.0)
     net-http (0.9.1)
       uri (>= 0.11.1)
     net-imap (0.6.2)
@@ -226,6 +227,7 @@ GEM
       oauth2 (>= 2.0.2, < 3)
       omniauth (~> 2.0)
     orm_adapter (0.5.0)
+    ostruct (0.6.3)
     pg (1.6.3)
     popper_js (2.11.8)
     pp (0.6.3)
@@ -347,6 +349,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  base64
+  bigdecimal
   bootsnap (>= 1.18.4)
   bootstrap
   byebug
@@ -358,8 +362,10 @@ DEPENDENCIES
   jbuilder (~> 2.14.1)
   jquery-rails
   listen (~> 3.9)
+  mutex_m
   omniauth
   omniauth-google-oauth2
+  ostruct
   pg (= 1.6.3)
   puma (~> 7.1.0)
   rails (~> 8.1.2)
