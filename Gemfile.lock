@@ -287,7 +287,7 @@ DEPENDENCIES
   listen (= 3.9.0)
   omniauth
   omniauth-google-oauth2
-  pg
+  pg (= 1.6.3)
   puma (~> 7.1.0)
   rails (~> 8.1.2)
   selenium-webdriver (>= 4.0)
