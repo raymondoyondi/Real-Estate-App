@@ -284,7 +284,7 @@ DEPENDENCIES
   faker!
   jbuilder (~> 2.14.1)
   jquery-rails
-  listen (= 3.9.0)
+  listen (~> 3.9.0)
   omniauth
   omniauth-google-oauth2
   pg (= 1.6.3)
